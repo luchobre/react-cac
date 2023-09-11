@@ -350,7 +350,7 @@ span.arrow.right {
 
       & .inner-center {
         font-family: var(--lcd-font);
-        font-size: 38px;
+        font-size: 35px;
         width: calc(var(--width) * 0.6);
         height: 75px;
         background: var(--lcd-background-color);
