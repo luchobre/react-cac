@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+
 
 const Contador = () => {
+  const [contador, setContador] = useState(0);
   const handleIncrement = () => {
-    // cambio de estado
-  };
+    setContador(contador + 1)
+    console.log("mas")
+  }
   const handleDecrement = () => {
-    // cambio de estado
-  };
+    setContador(contador - 1)
+  }
 
   return (
     <div>
       <button onClick={handleIncrement}>+</button>
-      <h1>0</h1>
+      <h1>{contador}</h1>
       <button onClick={handleDecrement}>-</button>
     </div>
   );
