@@ -7,6 +7,9 @@ import Prueba from "./temario/prueba";
 import UseStateTarea1 from "./temario/UseStateTarea1";
 import UseStateReloj from "./temario/UseStateReloj";
 import UseStateCronometro from "./temario/UseStateCronometro";
+import Formulario from "./temario/Formulario";
+import UseRef from "./temario/useRef";
+import FormulariosPrueba from "./temario/FormulariosPrueba";
 
 const App = () => {
   return (
